@@ -24,7 +24,7 @@ end
 
 * Add `resources :pokemons` to line 2 of your `config/routes.rb` file. Refresh your `http://localhost:3000/pokemons` page. The error should change! We've now set up the route, but we don't have a view.
 
-* Create the file `app/views/pokemons/index.html.erb`. Refresh the page. No errors! Notice that we didn't have to `render` `index.html.erb` like we did in Sinatra.
+* Create the file `app/views/pokemons/index.html.erb`. Refresh the page. No errors!
 
 * Add the following code to `index.html.erb`:
 ```html
