@@ -1,0 +1,7 @@
+<%= form_for @pokemon, url: {action: "create"}, html: {class: "nifty_form"} do |f| %>
+  Name: <p><%= f.text_field :name %></p>
+  Kind: <p><%= f.text_field :kind %></p>
+  Number: <p><%= f.text_field :number %></p>
+
+  <%= f.submit "Create" %>
+<% end %>
