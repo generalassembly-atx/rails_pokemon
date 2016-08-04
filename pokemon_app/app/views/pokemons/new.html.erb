@@ -1,0 +1,6 @@
+<%= form_for @pokemon, url: {action: "create"} do |f| %>
+  <%= f.text_field :name, placeholder: "Name" %>
+  <%= f.text_field :kind, placeholder: "Kind" %>
+  <%= f.text_field :number, placeholder: "Number" %>
+  <%= f.submit %>
+<% end %>
