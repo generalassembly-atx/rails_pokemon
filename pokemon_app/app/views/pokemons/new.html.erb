@@ -1,0 +1,18 @@
+<%= form_for @pokemon do |f| %>
+  <p>
+    <%= f.label :name %>:
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :kind %>:
+    <%= f.text_field :kind %>
+  </p>
+
+  <p>
+    <%= f.label :number %>:
+    <%= f.text_field :number %>
+  </p>
+
+  <%= f.submit %>
+<% end %>
